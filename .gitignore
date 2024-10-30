@@ -1,0 +1,4 @@
+.DS_Store
+./obj
+./bin/.DS_Store
+ofxGenericApp.xcodeproj
