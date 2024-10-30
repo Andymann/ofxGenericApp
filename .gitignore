@@ -1,6 +1,6 @@
 .DS_Store
-./obj/osx/Release
+./obj/
 ./bin/.DS_Store
 ./ofxGenericApp.xcodeproj
-./bin/ofxGenericApp.app/Contents
+./bin/ofxGenericApp.app/
 ./Project.xcconfig
