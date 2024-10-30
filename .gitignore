@@ -1,5 +1,5 @@
 .DS_Store
-./obj
+./obj/
 ./bin/.DS_Store
 ofxGenericApp.xcodeproj
-./bin/ofxGenericApp.app
+./bin/ofxGenericApp.app/
