@@ -1,6 +1,6 @@
 .DS_Store
 ./obj/
 ./bin/.DS_Store
-ofxGenericApp.xcodeproj
+./ofxGenericApp.xcodeproj
 ./bin/ofxGenericApp.app/
 ./Project.xcconfig
