@@ -2,5 +2,5 @@
 ./obj/osx/Release/
 ./bin/.DS_Store
 ./ofxGenericApp.xcodeproj
-./bin/ofxGenericApp.app/
+./bin/ofxGenericApp.app/Contents
 ./Project.xcconfig
