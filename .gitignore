@@ -1,5 +1,5 @@
 .DS_Store
-./obj/osx/Release/
+./obj/osx/Release
 ./bin/.DS_Store
 ./ofxGenericApp.xcodeproj
 ./bin/ofxGenericApp.app/Contents
