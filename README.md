@@ -1,0 +1,2 @@
+# ofxGenericApp
+Boilerplate for openframeworks
