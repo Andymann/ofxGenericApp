@@ -102,10 +102,10 @@ vector<string> ofApp::getMidiOutputs(){
 void ofApp::buildGui(){
 
     leftGui = new ofxDatGui( ofxDatGuiAnchor::TOP_LEFT );
-    leftGui->setWidth( iWIDTH/2 -10 );
+    leftGui->setWidth( iWIDTH/2 -GUIPADDING );
 
     rightGui = new ofxDatGui( ofxDatGuiAnchor::TOP_RIGHT );
-    rightGui->setWidth( iWIDTH/2 -10);
+    rightGui->setWidth( iWIDTH/2 -GUIPADDING);
 
     lblMidiIn = leftGui->addLabel( LBL_SELECTMIDIIN );
     lblMidiIn->setTheme(new myLabelTheme());
@@ -118,7 +118,7 @@ void ofApp::buildGui(){
     //leftGui->addBreak()->setHeight(20.0f);
     padding1 = leftGui->addBreak();
     padding1->setTheme(new myPaddingTheme() );
-    padding1->setHeight(20.0f);
+    padding1->setHeight( 0./*12 * GUIPADDING*/ );
 
     lblMidiOut = leftGui->addLabel( LBL_SELECTMIDIOUT );
     lblMidiOut->setTheme(new myLabelTheme());

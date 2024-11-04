@@ -46,9 +46,11 @@ class ofApp : public ofBaseApp{
 		static const int COL_GREEN = 0x00FF00;
 
 		const string LBL_SELECTMIDIIN = "Select Mid IN:";
-		const string LBL_SELECTMIDIOUT = "Select Midi OUT";
-		const string LBL_NOMIDIIN = "-- No Midi in --";
+		const string LBL_SELECTMIDIOUT = "Select Midi OUT:";
+		const string LBL_NOMIDIIN = "-- No Midi IN --";
 		const string LBL_NOMIDIOUT = "No Midi OUT";
+
+		const float GUIPADDING = 10.0;
 
 
 		const string TITLE = "ofxGenericApp";
